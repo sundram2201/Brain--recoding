@@ -1,0 +1,2362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset='utf-8'>
+   <meta name="viewport" content="width=device-width, initial-scale=1" id="wixDesktopViewport" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="generator" content="Wix.com Website Builder" />
+   <link rel="icon" sizes="192x192" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon" />
+   <link rel="shortcut icon" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon" />
+   <link rel="apple-touch-icon" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon" />
+   <script async=""
+           src="https://static.parastorage.com/services/wix-thunderbolt/dist/originTrials.41d7301a.bundle.min.js"></script>
+   <!-- Legacy Polyfills -->
+   <script nomodule="" src="https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js"></script>
+   <script nomodule=""
+           src="https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js"></script>
+   <script nomodule="" src="https://polyfill-fastly.io/v3/polyfill.min.js?features=fetch"></script>
+   <!-- Performance API Polyfills -->
+   <!-- Globals Definitions -->
+   <!-- Polyfills check -->
+   <!-- Essential Viewer Model -->
+   <script type="application/json"
+           id="wix-essential-viewer-model">{"fleetConfig":{"fleetName":"wix-thunderbolt","type":"GA","code":0},"mode":{"qa":false,"enableTestApi":false,"debug":false,"ssrIndicator":false,"ssrOnly":false,"siteAssetsFallback":"enable"},"componentsLibrariesTopology":[{"artifactId":"editor-elements","namespace":"wixui","url":"https:\/\/static.parastorage.com\/services\/editor-elements\/1.12009.0"},{"artifactId":"editor-elements","namespace":"dsgnsys","url":"https:\/\/static.parastorage.com\/services\/editor-elements\/1.12009.0"}],"siteFeaturesConfigs":{"sessionManager":{"isRunningInDifferentSiteContext":false}},"language":{"userLanguage":"en"},"siteAssets":{"clientTopology":{"mediaRootUrl":"https:\/\/static.wixstatic.com","staticMediaUrl":"https:\/\/static.wixstatic.com\/media","moduleRepoUrl":"https:\/\/static.parastorage.com\/unpkg","fileRepoUrl":"https:\/\/static.parastorage.com\/services","siteAssetsUrl":"https:\/\/siteassets.parastorage.com","pageJsonServerUrls":["https:\/\/pages.parastorage.com","https:\/\/staticorigin.wixstatic.com","https:\/\/www.brighterminds.org","https:\/\/fallback.wix.com\/wix-html-editor-pages-webapp\/page"],"pathOfTBModulesInFileRepoForFallback":"wix-thunderbolt\/dist\/"}},"siteFeatures":["assetsLoader","businessLogger","captcha","clickHandlerRegistrar","commonConfig","componentsLoader","componentsRegistry","consentPolicy","cookiesManager","cyclicTabbing","dynamicPages","environmentWixCodeSdk","environment","locationWixCodeSdk","multilingual","navigationManager","navigationPhases","ooi","pages","panorama","protectedPages","renderer","reporter","routerFetch","router","scrollRestoration","seoWixCodeSdk","seo","sessionManager","siteMembersWixCodeSdk","siteMembers","siteScrollBlocker","siteWixCodeSdk","stores","structureApi","thunderboltInitializer","tpaCommons","translations","warmupData","windowMessageRegistrar","windowWixCodeSdk","wixCustomElementComponent","wixEmbedsApi","componentsReact","platform"],"site":{"externalBaseUrl":"https:\/\/www.brighterminds.org","isSEO":false},"media":{"staticMediaUrl":"https:\/\/static.wixstatic.com\/media","mediaRootUrl":"https:\/\/static.wixstatic.com\/","staticVideoUrl":"https:\/\/video.wixstatic.com\/"},"requestUrl":"https:\/\/www.brighterminds.org\/alpha","rollout":{"siteAssetsVersionsRollout":false,"isDACRollout":1,"isTBRollout":false},"commonConfig":{"brand":"wix","host":"VIEWER","bsi":"","consentPolicy":{},"consentPolicyHeader":{}},"interactionSampleRatio":0.01,"dynamicModelUrl":"https:\/\/www.brighterminds.org\/_api\/v2\/dynamicmodel","accessTokensUrl":"https:\/\/www.brighterminds.org\/_api\/v1\/access-tokens","experiments":{"specs.thunderbolt.allowWEBPTransformation":true}}</script>
+   <script>window.viewerModel = JSON.parse(document.getElementById('wix-essential-viewer-model').textContent)</script>
+   <!-- initCustomElements -->
+   <meta name="wix-dynamic-custom-elements" content="DropDownMenu">
+   <!-- Initial CSS -->
+   <style data-url="https://static.parastorage.com/services/wix-thunderbolt/dist/main.c1956e3f.min.css">
+      body.device-mobile-optimized {
+         overflow-x: hidden;
+         overflow-y: scroll
+      }
+
+      body.device-mobile-optimized:not(.responsive) #SITE_CONTAINER {
+         margin-left: auto;
+         margin-right: auto;
+         overflow-x: visible;
+         position: relative;
+         width: 320px
+      }
+
+      body.device-mobile-optimized:not(.responsive):not(.blockSiteScrolling) #SITE_CONTAINER {
+         margin-top: 0
+      }
+
+      body.device-mobile-optimized>* {
+         max-width: 100% !important
+      }
+
+      body.device-mobile-optimized #site-root {
+         overflow-x: hidden;
+         overflow-y: hidden
+      }
+
+      @supports(overflow:clip) {
+         body.device-mobile-optimized #site-root {
+            overflow-x: clip;
+            overflow-y: clip
+         }
+      }
+
+      body.device-mobile-non-optimized #SITE_CONTAINER #site-root {
+         overflow-x: hidden;
+         overflow-y: auto
+      }
+
+      body.device-mobile-non-optimized.fullScreenMode {
+         background-color: #5f6360
+      }
+
+      body.device-mobile-non-optimized.fullScreenMode #MOBILE_ACTIONS_MENU,
+      body.device-mobile-non-optimized.fullScreenMode #SITE_BACKGROUND,
+      body.device-mobile-non-optimized.fullScreenMode #site-root,
+      body.fullScreenMode #WIX_ADS {
+         visibility: hidden
+      }
+
+      body.fullScreenMode {
+         overflow-x: hidden !important;
+         overflow-y: hidden !important
+      }
+
+      body.fullScreenMode.device-mobile-optimized #TINY_MENU {
+         opacity: 0;
+         pointer-events: none
+      }
+
+      body.fullScreenMode-scrollable.device-mobile-optimized {
+         overflow-x: hidden !important;
+         overflow-y: auto !important
+      }
+
+      body.fullScreenMode-scrollable.device-mobile-optimized #masterPage,
+      body.fullScreenMode-scrollable.device-mobile-optimized #site-root {
+         overflow-x: hidden !important;
+         overflow-y: hidden !important
+      }
+
+      body.fullScreenMode-scrollable.device-mobile-optimized #SITE_BACKGROUND,
+      body.fullScreenMode-scrollable.device-mobile-optimized #masterPage {
+         height: auto !important
+      }
+
+      body.fullScreenMode-scrollable.device-mobile-optimized #masterPage.mesh-layout {
+         height: 0 !important
+      }
+
+      body.blockSiteScrolling {
+         position: fixed;
+         width: 100%
+      }
+
+      body.blockSiteScrolling #SITE_CONTAINER {
+         margin-top: calc(var(--blocked-site-scroll-margin-top)*-1)
+      }
+
+      body.blockSiteScrolling:not(.responsive) #WIX_ADS {
+         margin-top: var(--blocked-site-scroll-margin-top)
+      }
+
+      body.blockSiteScrollingWithOverflow {
+         overflow-y: hidden
+      }
+
+      @keyframes slide-horizontal-new {
+         0% {
+            transform: translateX(100%)
+         }
+      }
+
+      @keyframes slide-horizontal-old {
+         80% {
+            opacity: 1
+         }
+
+         to {
+            opacity: 0;
+            transform: translateX(-100%)
+         }
+      }
+
+      @keyframes slide-vertical-new {
+         0% {
+            transform: translateY(-100%)
+         }
+      }
+
+      @keyframes slide-vertical-old {
+         80% {
+            opacity: 1
+         }
+
+         to {
+            opacity: 0;
+            transform: translateY(100%)
+         }
+      }
+
+      @keyframes out-in-new {
+         0% {
+            opacity: 0
+         }
+      }
+
+      @keyframes out-in-old {
+         to {
+            opacity: 0
+         }
+      }
+
+      html[data-page-transition=SlideHorizontal]::view-transition-old(page-group) {
+         animation: slide-horizontal-old .6s cubic-bezier(.83, 0, .17, 1) forwards;
+         mix-blend-mode: normal
+      }
+
+      html[data-page-transition=SlideHorizontal]::view-transition-new(page-group) {
+         animation: slide-horizontal-new .6s cubic-bezier(.83, 0, .17, 1) backwards;
+         mix-blend-mode: normal
+      }
+
+      html[data-page-transition=SlideVertical]::view-transition-old(page-group) {
+         animation: slide-vertical-old .6s cubic-bezier(.83, 0, .17, 1) forwards;
+         mix-blend-mode: normal
+      }
+
+      html[data-page-transition=SlideVertical]::view-transition-new(page-group) {
+         animation: slide-vertical-new .6s cubic-bezier(.83, 0, .17, 1) backwards;
+         mix-blend-mode: normal
+      }
+
+      html[data-page-transition=OutIn]::view-transition-old(page-group) {
+         animation: out-in-old .35s cubic-bezier(.64, 0, .78, 0) forwards
+      }
+
+      html[data-page-transition=OutIn]::view-transition-new(page-group) {
+         animation: out-in-new .35s cubic-bezier(.22, 1, .36, 1) .35s backwards
+      }
+
+      @media(prefers-reduced-motion:reduce) {
+
+         ::view-transition-group(*),
+         ::view-transition-new(*),
+         ::view-transition-old(*) {
+            animation: none !important
+         }
+      }
+
+      body,
+      html {
+         background: transparent;
+         border: 0;
+         margin: 0;
+         outline: 0;
+         padding: 0;
+         vertical-align: baseline
+      }
+
+      body {
+         --scrollbar-width: 0px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 10px
+      }
+
+      body,
+      html {
+         height: 100%
+      }
+
+      body {
+         overflow-x: auto;
+         overflow-y: scroll
+      }
+
+      body:not(.responsive) #site-root {
+         min-width: var(--site-width);
+         width: 100%
+      }
+
+      body:not([data-js-loaded]) [data-hide-prejs] {
+         visibility: hidden
+      }
+
+      #SITE_CONTAINER {
+         position: relative
+      }
+
+      :root {
+         --one-unit: 1vw
+      }
+
+      @supports(container-type:inline-size) {
+         :root {
+            --one-unit: 1cqw
+         }
+      }
+   </style>
+   <style data-url="https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.6a0d3a25.min.css">
+      a,
+      abbr,
+      acronym,
+      address,
+      applet,
+      b,
+      big,
+      blockquote,
+      button,
+      caption,
+      center,
+      cite,
+      code,
+      dd,
+      del,
+      dfn,
+      div,
+      dl,
+      dt,
+      em,
+      fieldset,
+      font,
+      footer,
+      form,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      header,
+      i,
+      iframe,
+      img,
+      ins,
+      kbd,
+      label,
+      legend,
+      li,
+      nav,
+      object,
+      ol,
+      p,
+      pre,
+      q,
+      s,
+      samp,
+      section,
+      small,
+      span,
+      strike,
+      strong,
+      sub,
+      sup,
+      table,
+      tbody,
+      td,
+      tfoot,
+      th,
+      thead,
+      title,
+      tr,
+      tt,
+      u,
+      ul,
+      var {
+         background: transparent;
+         border: 0;
+         margin: 0;
+         outline: 0;
+         padding: 0;
+         vertical-align: baseline
+      }
+
+      input,
+      select,
+      textarea {
+         box-sizing: border-box;
+         font-family: Helvetica, Arial, sans-serif
+      }
+
+      ol,
+      ul {
+         list-style: none
+      }
+
+      blockquote,
+      q {
+         quotes: none
+      }
+
+      ins {
+         text-decoration: none
+      }
+
+      del {
+         text-decoration: line-through
+      }
+
+      table {
+         border-collapse: collapse;
+         border-spacing: 0
+      }
+
+      a {
+         cursor: pointer;
+         text-decoration: none
+      }
+
+      .testStyles {
+         overflow-y: hidden
+      }
+
+      .reset-button {
+         -webkit-appearance: none;
+         background: none;
+         border: 0;
+         color: inherit;
+         font: inherit;
+         line-height: normal;
+         outline: 0;
+         overflow: visible;
+         padding: 0;
+         -webkit-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none
+      }
+
+      :focus {
+         outline: none
+      }
+
+      #site-root {
+         margin: 0 auto;
+         min-height: 100%;
+         position: relative;
+         top: var(--wix-ads-height)
+      }
+
+      #site-root img:not([src]) {
+         visibility: hidden
+      }
+
+      #site-root svg img:not([src]) {
+         visibility: visible
+      }
+
+      .auto-generated-link {
+         color: inherit
+      }
+
+      #SCROLL_TO_BOTTOM,
+      #SCROLL_TO_TOP {
+         height: 0
+      }
+
+      .has-click-trigger {
+         cursor: pointer
+      }
+
+      .fullScreenOverlay {
+         bottom: 0;
+         display: flex;
+         justify-content: center;
+         left: 0;
+         overflow-y: hidden;
+         position: fixed;
+         right: 0;
+         top: -60px;
+         z-index: 1005
+      }
+
+      .fullScreenOverlay>.fullScreenOverlayContent {
+         bottom: 0;
+         left: 0;
+         margin: 0 auto;
+         overflow: hidden;
+         position: absolute;
+         right: 0;
+         top: 60px;
+         transform: translateZ(0)
+      }
+
+      [data-mesh-id$=centeredContent],
+      [data-mesh-id$=form],
+      [data-mesh-id$=inlineContent] {
+         pointer-events: none;
+         position: relative
+      }
+
+      [data-mesh-id$=-gridWrapper],
+      [data-mesh-id$=-rotated-wrapper] {
+         pointer-events: none
+      }
+
+      [data-mesh-id$=-gridContainer]>*,
+      [data-mesh-id$=-rotated-wrapper]>*,
+      [data-mesh-id$=inlineContent]>:not([data-mesh-id$=-gridContainer]) {
+         pointer-events: auto
+      }
+
+      .device-mobile-optimized #masterPage.mesh-layout #SOSP_CONTAINER_CUSTOM_ID {
+         grid-area: 2/1/3/2;
+         -ms-grid-row: 2;
+         position: relative
+      }
+
+      #masterPage.mesh-layout {
+         -ms-grid-rows: max-content max-content min-content max-content;
+         -ms-grid-columns: 100%;
+         align-items: start;
+         display: -ms-grid;
+         display: grid;
+         grid-template-columns: 100%;
+         grid-template-rows: max-content max-content min-content max-content;
+         justify-content: stretch
+      }
+
+      #masterPage.mesh-layout #PAGES_CONTAINER,
+      #masterPage.mesh-layout #SITE_FOOTER-placeholder,
+      #masterPage.mesh-layout #SITE_FOOTER_WRAPPER,
+      #masterPage.mesh-layout #SITE_HEADER-placeholder,
+      #masterPage.mesh-layout #SITE_HEADER_WRAPPER,
+      #masterPage.mesh-layout #SOSP_CONTAINER_CUSTOM_ID[data-state~=mobileView],
+      #masterPage.mesh-layout #soapAfterPagesContainer,
+      #masterPage.mesh-layout #soapBeforePagesContainer {
+         -ms-grid-row-align: start;
+         -ms-grid-column-align: start;
+         -ms-grid-column: 1
+      }
+
+      #masterPage.mesh-layout #SITE_HEADER-placeholder,
+      #masterPage.mesh-layout #SITE_HEADER_WRAPPER {
+         grid-area: 1/1/2/2;
+         -ms-grid-row: 1
+      }
+
+      #masterPage.mesh-layout #PAGES_CONTAINER,
+      #masterPage.mesh-layout #soapAfterPagesContainer,
+      #masterPage.mesh-layout #soapBeforePagesContainer {
+         grid-area: 3/1/4/2;
+         -ms-grid-row: 3
+      }
+
+      #masterPage.mesh-layout #soapAfterPagesContainer,
+      #masterPage.mesh-layout #soapBeforePagesContainer {
+         width: 100%
+      }
+
+      #masterPage.mesh-layout #PAGES_CONTAINER {
+         align-self: stretch
+      }
+
+      #masterPage.mesh-layout main#PAGES_CONTAINER {
+         display: block
+      }
+
+      #masterPage.mesh-layout #SITE_FOOTER-placeholder,
+      #masterPage.mesh-layout #SITE_FOOTER_WRAPPER {
+         grid-area: 4/1/5/2;
+         -ms-grid-row: 4
+      }
+
+      #masterPage.mesh-layout #SITE_PAGES,
+      #masterPage.mesh-layout [data-mesh-id=PAGES_CONTAINERcenteredContent],
+      #masterPage.mesh-layout [data-mesh-id=PAGES_CONTAINERinlineContent] {
+         height: 100%
+      }
+
+      #masterPage.mesh-layout.desktop>* {
+         width: 100%
+      }
+
+      #masterPage.mesh-layout #PAGES_CONTAINER,
+      #masterPage.mesh-layout #SITE_FOOTER_WRAPPER,
+      #masterPage.mesh-layout #SITE_HEADER_WRAPPER,
+      #masterPage.mesh-layout #SITE_PAGES,
+      #masterPage.mesh-layout #masterPageinlineContent,
+      #masterPage.mesh-layout:not(.one-doc) #SITE_FOOTER,
+      #masterPage.mesh-layout:not(.one-doc) #SITE_HEADER {
+         position: relative
+      }
+
+      [data-z-counter] {
+         z-index: 0
+      }
+
+      [data-z-counter="0"] {
+         z-index: auto
+      }
+
+      .wixSiteProperties {
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale
+      }
+
+      :root {
+         --wst-button-color-fill-primary: rgb(var(--color_48));
+         --wst-button-color-border-primary: rgb(var(--color_49));
+         --wst-button-color-text-primary: rgb(var(--color_50));
+         --wst-button-color-fill-primary-hover: rgb(var(--color_51));
+         --wst-button-color-border-primary-hover: rgb(var(--color_52));
+         --wst-button-color-text-primary-hover: rgb(var(--color_53));
+         --wst-button-color-fill-primary-disabled: rgb(var(--color_54));
+         --wst-button-color-border-primary-disabled: rgb(var(--color_55));
+         --wst-button-color-text-primary-disabled: rgb(var(--color_56));
+         --wst-button-color-fill-secondary: rgb(var(--color_57));
+         --wst-button-color-border-secondary: rgb(var(--color_58));
+         --wst-button-color-text-secondary: rgb(var(--color_59));
+         --wst-button-color-fill-secondary-hover: rgb(var(--color_60));
+         --wst-button-color-border-secondary-hover: rgb(var(--color_61));
+         --wst-button-color-text-secondary-hover: rgb(var(--color_62));
+         --wst-button-color-fill-secondary-disabled: rgb(var(--color_63));
+         --wst-button-color-border-secondary-disabled: rgb(var(--color_64));
+         --wst-button-color-text-secondary-disabled: rgb(var(--color_65));
+         --wst-color-fill-base-1: rgb(var(--color_36));
+         --wst-color-fill-base-2: rgb(var(--color_37));
+         --wst-color-fill-base-shade-1: rgb(var(--color_38));
+         --wst-color-fill-base-shade-2: rgb(var(--color_39));
+         --wst-color-fill-base-shade-3: rgb(var(--color_40));
+         --wst-color-fill-accent-1: rgb(var(--color_41));
+         --wst-color-fill-accent-2: rgb(var(--color_42));
+         --wst-color-fill-accent-3: rgb(var(--color_43));
+         --wst-color-fill-accent-4: rgb(var(--color_44));
+         --wst-color-fill-background-primary: rgb(var(--color_11));
+         --wst-color-fill-background-secondary: rgb(var(--color_12));
+         --wst-color-text-primary: rgb(var(--color_15));
+         --wst-color-text-secondary: rgb(var(--color_14));
+         --wst-color-action: rgb(var(--color_18));
+         --wst-color-disabled: rgb(var(--color_39));
+         --wst-color-title: rgb(var(--color_45));
+         --wst-color-subtitle: rgb(var(--color_46));
+         --wst-color-line: rgb(var(--color_47));
+         --wst-font-style-h2: var(--font_2);
+         --wst-font-style-h3: var(--font_3);
+         --wst-font-style-h4: var(--font_4);
+         --wst-font-style-h5: var(--font_5);
+         --wst-font-style-h6: var(--font_6);
+         --wst-font-style-body-large: var(--font_7);
+         --wst-font-style-body-medium: var(--font_8);
+         --wst-font-style-body-small: var(--font_9);
+         --wst-font-style-body-x-small: var(--font_10)
+      }
+   </style>
+   <meta name="format-detection" content="telephone=no">
+   <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
+   <script type="wix/htmlEmbeds" id="pageHtmlEmbeds.head start"></script>
+   <script type="wix/htmlEmbeds" id="pageHtmlEmbeds.head end"></script>
+   <meta http-equiv="X-Wix-Meta-Site-Id" content="74297962-4c0e-4aa5-8f8e-78c6e59ad63d">
+   <meta http-equiv="X-Wix-Application-Instance-Id" content="35e68e6e-368b-413e-8310-07e1cf0a3488">
+   <meta http-equiv="X-Wix-Published-Version" content="807" />
+   <meta http-equiv="etag" content="bug" />
+   <link href="../styles/global.css" rel="stylesheet" type="text/css">
+   <link href="../styles/header.css" rel="stylesheet" type="text/css">
+   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <title>ALPHA | Brighter Minds</title>
+   <link rel="canonical" href="https://www.brighterminds.org/alpha" />
+   <meta property="og:title" content="ALPHA | Brighter Minds" />
+   <meta property="og:url" content="https://www.brighterminds.org/alpha" />
+   <meta property="og:site_name" content="Brighter Minds" />
+   <meta property="og:type" content="website" />
+   <link rel="alternate" href="https://www.brighterminds.org/alpha" hreflang="x-default" />
+   <link rel="alternate" href="https://www.brighterminds.org/es/alpha" hreflang="es-es" />
+   <link rel="alternate" href="https://www.brighterminds.org/alpha" hreflang="en-us" />
+   <meta name="twitter:card" content="summary_large_image" />
+   <meta name="twitter:title" content="ALPHA | Brighter Minds" />
+</head>
+<body class=''>
+   <script type="text/javascript">
+      var bodyCacheable = true;
+
+      var exclusionReason = { "shouldRender": true, "forced": false };
+      var ssrInfo = { "cacheExclusionReason": "", "renderBodyTime": 778, "renderTimeStamp": 1713422900186 }
+   </script>
+   <!--pageHtmlEmbeds.bodyStart start-->
+   <script type="wix/htmlEmbeds" id="pageHtmlEmbeds.bodyStart start"></script>
+   <script type="wix/htmlEmbeds" id="pageHtmlEmbeds.bodyStart end"></script>
+   <!--pageHtmlEmbeds.bodyStart end-->
+   <script id="wix-first-paint">
+      if (window.ResizeObserver &&
+         (!window.PerformanceObserver || !PerformanceObserver.supportedEntryTypes || PerformanceObserver.supportedEntryTypes.indexOf('paint') === -1)) {
+         new ResizeObserver(function (entries, observer) {
+            entries.some(function (entry) {
+               var contentRect = entry.contentRect;
+               if (contentRect.width > 0 && contentRect.height > 0) {
+                  requestAnimationFrame(function (now) {
+                     window.wixFirstPaint = now;
+                     dispatchEvent(new CustomEvent('wixFirstPaint'));
+                  });
+                  observer.disconnect();
+                  return true;
+               }
+            });
+         }).observe(document.body);
+      }
+   </script>
+   <pages-css id="pages-css">
+      <link href="../page.css" rel="stylesheet" type="text/css">
+      <style id="css_jlhbu">
+         #comp-kf5lh886 {
+            --height: 111px;
+            --width: 222px
+         }
+
+         #comp-kf2qdw5w {
+            --height: 86px;
+            --width: 80px
+         }
+
+         #comp-kf3dilyv {
+            --height: 155px;
+            --width: 157px
+         }
+
+         #comp-kf3dva8r {
+            --stroke-width: 0;
+            --fill-opacity: 1;
+            --stroke: #5E97FF;
+            --stroke-opacity: 1;
+            --fill: #00ABA8
+         }
+
+         @font-face {
+            font-family: "Poppins-SemiBold";
+            src: url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/9VWMTeb5jtXkNoTv949Npfk_vArhqVIZ0nv9q090hN8.woff2") format("woff2"),
+               url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff/s/poppins/v5/9VWMTeb5jtXkNoTv949NpRsxEYwM7FgeyaSgU71cLG0.woff") format("woff");
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: "Poppins-SemiBold";
+            font-weight: 700;
+            src: url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/aDjpMND83pDErGXlVEr-Sfk_vArhqVIZ0nv9q090hN8.woff2") format("woff2"),
+               url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff/s/poppins/v5/aDjpMND83pDErGXlVEr-SRsxEYwM7FgeyaSgU71cLG0.woff") format("woff");
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: "Poppins-SemiBold";
+            font-style: italic;
+            src: url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/RbebACOccNN-5ixkDIVLjRUOjZSKWg4xBWp_C_qQx0o.woff2") format("woff2"),
+               url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff/s/poppins/v5/RbebACOccNN-5ixkDIVLjRa1RVmPjeKy21_GQJaLlJI.woff") format("woff");
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: "Poppins-SemiBold";
+            font-weight: 700;
+            font-style: italic;
+            src: url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v5/c4FPK8_hIFKoX59qcGwdChUOjZSKWg4xBWp_C_qQx0o.woff2") format("woff2"),
+               url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff/s/poppins/v5/c4FPK8_hIFKoX59qcGwdCha1RVmPjeKy21_GQJaLlJI.woff") format("woff");
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Poppins Italic'), local('Poppins-Italic'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucXtAOvWDSHFF.woff2") format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Poppins Italic'), local('Poppins-Italic'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiGyp8kv8JHgFVrJJLufntAOvWDSHFF.woff2") format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Poppins Italic'), local('Poppins-Italic'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucHtAOvWDSA.woff2") format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Poppins Bold Italic'), local('Poppins-BoldItalic'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VFteOYktMqlap.woff2") format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Poppins Bold Italic'), local('Poppins-BoldItalic'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VGdeOYktMqlap.woff2") format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Poppins Bold Italic'), local('Poppins-BoldItalic'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VF9eOYktMqg.woff2") format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Poppins Regular'), local('Poppins-Regular'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2") format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Poppins Regular'), local('Poppins-Regular'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2") format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Poppins Regular'), local('Poppins-Regular'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2") format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Poppins Bold'), local('Poppins-Bold'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z11lFd2JQEl8qw.woff2") format('woff2');
+            unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Poppins Bold'), local('Poppins-Bold'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2") format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            font-display: block;
+         }
+
+         @font-face {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Poppins Bold'), local('Poppins-Bold'), url("//static.parastorage.com/tag-bundler/api/v1/fonts-cache/googlefont/woff2/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2") format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            font-display: block;
+         }
+
+         @font-face {
+            font-display: block;
+            font-family: wf_7a972c50a47f4a5faa23d8212;
+            src: url("https://static.wixstatic.com/ufonts/16605b_7a972c50a47f4a5faa23d8212ff3642c/woff2/file.woff2") format("woff2"),
+               url("https://static.wixstatic.com/ufonts/16605b_7a972c50a47f4a5faa23d8212ff3642c/woff/file.woff") format("woff"),
+               url("https://static.wixstatic.com/ufonts/16605b_7a972c50a47f4a5faa23d8212ff3642c/ttf/file.ttf") format("ttf");
+         }
+
+         @font-face {
+            font-display: block;
+            font-family: wf_d08766f1a8d4459ca6554db44;
+            src: url("https://static.wixstatic.com/ufonts/16605b_d08766f1a8d4459ca6554db44e9761bd/woff2/file.woff2") format("woff2"),
+               url("https://static.wixstatic.com/ufonts/16605b_d08766f1a8d4459ca6554db44e9761bd/woff/file.woff") format("woff"),
+               url("https://static.wixstatic.com/ufonts/16605b_d08766f1a8d4459ca6554db44e9761bd/ttf/file.ttf") format("ttf");
+         }
+
+         @font-face {
+            font-display: block;
+            font-family: wf_803cd4f0dbce4d95b42e5db40;
+            src: url("https://static.wixstatic.com/ufonts/16605b_803cd4f0dbce4d95b42e5db407ba4321/woff2/file.woff2") format("woff2"),
+               url("https://static.wixstatic.com/ufonts/16605b_803cd4f0dbce4d95b42e5db407ba4321/woff/file.woff") format("woff"),
+               url("https://static.wixstatic.com/ufonts/16605b_803cd4f0dbce4d95b42e5db407ba4321/ttf/file.ttf") format("ttf");
+         }
+
+         @font-face {
+            font-display: block;
+            font-family: wf_021b891eddd9465489c2e8fda;
+            src: url("https://static.wixstatic.com/ufonts/16605b_021b891eddd9465489c2e8fda7072a8b/woff2/file.woff2") format("woff2"),
+               url("https://static.wixstatic.com/ufonts/16605b_021b891eddd9465489c2e8fda7072a8b/woff/file.woff") format("woff"),
+               url("https://static.wixstatic.com/ufonts/16605b_021b891eddd9465489c2e8fda7072a8b/ttf/file.ttf") format("ttf");
+         }
+
+         @font-face {
+            font-display: block;
+            font-family: wf_5ef2fce96ea94c36926367f6c;
+            src: url("https://static.wixstatic.com/ufonts/16605b_5ef2fce96ea94c36926367f6c8932a76/woff2/file.woff2") format("woff2"),
+               url("https://static.wixstatic.com/ufonts/16605b_5ef2fce96ea94c36926367f6c8932a76/woff/file.woff") format("woff"),
+               url("https://static.wixstatic.com/ufonts/16605b_5ef2fce96ea94c36926367f6c8932a76/ttf/file.ttf") format("ttf");
+         }
+
+         #jlhbu {
+            --param_boolean_previewHover: false;
+         }
+
+         #jlhbu {
+            left: 0;
+            margin-left: 0;
+            width: 100%;
+            min-width: 0;
+         }
+
+         #masterPage {
+            --pinned-layers-in-page: 0;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent] {
+            height: auto;
+            width: 100%;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer] {
+            position: static;
+            display: grid;
+            height: auto;
+            width: 100%;
+            min-height: 5242px;
+            grid-template-rows: repeat(26, min-content) 1fr;
+            grid-template-columns: 100%;
+            padding-bottom: 0px;
+            box-sizing: border-box;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-l66nhddb"] {
+            position: relative;
+            margin: 13px 0px 25px calc((100% - 980px) * 0.5);
+            left: 1045px;
+            grid-area: 1 / 1 / 2 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf5lh886"] {
+            position: relative;
+            margin: 0px 0px 10px calc((100% - 980px) * 0.5);
+            left: 338px;
+            grid-area: 2 / 1 / 3 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf2qdw5w"] {
+            position: relative;
+            margin: 11px 0px 24px calc((100% - 980px) * 0.5);
+            left: 576px;
+            grid-area: 2 / 1 / 3 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf2qeyjm"] {
+            position: relative;
+            margin: 0px 0px 33px calc((100% - 980px) * 0.5);
+            left: 60px;
+            grid-area: 3 / 1 / 4 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf2qi2ns"] {
+            position: relative;
+            margin: 0px 0px 69px calc((100% - 980px) * 0.5);
+            left: 0px;
+            grid-area: 4 / 1 / 5 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf2r0iqo"] {
+            position: relative;
+            margin: 0px 0px 53px calc((100% - 980px) * 0.5);
+            left: 105px;
+            grid-area: 5 / 1 / 6 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf2r4qtl"] {
+            position: relative;
+            margin: 0px 0px 60px calc((100% - 980px) * 0.5);
+            left: 0px;
+            grid-area: 6 / 1 / 7 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf2r7t4x"] {
+            position: relative;
+            margin: 0px 0px 50px calc((100% - 980px) * 0.5);
+            left: 102px;
+            grid-area: 7 / 1 / 8 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf2rulaq"] {
+            position: relative;
+            margin: 0px 0px 22px calc((100% - 980px) * 0.5);
+            left: 102px;
+            grid-area: 8 / 1 / 9 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf2ruuo6"] {
+            position: relative;
+            margin: 0px 0px 26px calc((100% - 980px) * 0.5);
+            left: 36px;
+            grid-area: 9 / 1 / 10 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf2s1hrm"] {
+            position: relative;
+            margin: 0px 0px 61px calc((100% - 980px) * 0.5);
+            left: 0px;
+            grid-area: 10 / 1 / 11 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3cuesz"] {
+            position: relative;
+            margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+            left: 114px;
+            grid-area: 11 / 1 / 12 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3cuapq"] {
+            position: relative;
+            margin: 0px 0px 29px calc((100% - 980px) * 0.5);
+            left: 114px;
+            grid-area: 12 / 1 / 13 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3cvbwf"] {
+            position: relative;
+            margin: 0px 0px 10px calc((100% - 980px) * 0.5);
+            left: 50px;
+            grid-area: 13 / 1 / 14 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3czbap"] {
+            position: relative;
+            margin: 0px 0px 48px calc((100% - 980px) * 0.5);
+            left: 0px;
+            grid-area: 15 / 1 / 16 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3d4kez"] {
+            position: relative;
+            margin: 0px 0px 26px calc((100% - 980px) * 0.5);
+            left: 98px;
+            grid-area: 16 / 1 / 17 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3d4kfv"] {
+            position: relative;
+            margin: 0px 0px 32px calc((100% - 980px) * 0.5);
+            left: 86px;
+            grid-area: 17 / 1 / 18 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3d8vpu"] {
+            position: relative;
+            margin: 0px 0px 10px calc((100% - 980px) * 0.5);
+            left: 0px;
+            grid-area: 18 / 1 / 19 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3ddjrk"] {
+            position: relative;
+            margin: 0px 0px 18px calc((100% - 980px) * 0.5);
+            left: 93px;
+            grid-area: 20 / 1 / 21 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3dfhmh"] {
+            position: relative;
+            margin: 0px 0px 60px calc((100% - 980px) * 0.5);
+            left: 165px;
+            grid-area: 21 / 1 / 22 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3dfhnl"] {
+            position: relative;
+            margin: 0px 0px 61px calc((100% - 980px) * 0.5);
+            left: 384px;
+            grid-area: 22 / 1 / 23 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3dilyv"] {
+            position: relative;
+            margin: 0px 0px 10px calc((100% - 980px) * 0.5);
+            left: 78px;
+            grid-area: 23 / 1 / 26 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3dqx7l"] {
+            position: relative;
+            margin: 1px 0px 25px calc((100% - 980px) * 0.5);
+            left: 276px;
+            grid-area: 23 / 1 / 24 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3dtn4c"] {
+            position: relative;
+            margin: 0px 0px 10px calc((100% - 980px) * 0.5);
+            left: 276px;
+            grid-area: 24 / 1 / 25 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-gridContainer]>[id="comp-kf3dva6d"] {
+            position: relative;
+            margin: 0px 0px 0 calc((100% - 980px) * 0.5);
+            left: 147px;
+            grid-area: 27 / 1 / 28 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-wedge-15] {
+            visibility: hidden;
+            height: 3131px;
+            width: 0;
+            grid-area: 1 / 1 / 15 / 2;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-wedge-20] {
+            visibility: hidden;
+            height: 4511px;
+            width: 0;
+            grid-area: 1 / 1 / 20 / 2;
+         }
+
+         [data-mesh-id=ContainerjlhbuinlineContent-wedge-27] {
+            visibility: hidden;
+            height: 5149px;
+            width: 0;
+            grid-area: 1 / 1 / 27 / 2;
+         }
+
+         #jlhbu {
+            width: auto;
+            min-height: 5242px;
+         }
+
+         #pageBackground_jlhbu {
+            --bg-position: absolute;
+            --fill-layer-background-overlay-color: transparent;
+            --fill-layer-background-overlay-position: absolute;
+            --bg-overlay-color: rgb(var(--color_11));
+            --bg-gradient: none;
+         }
+
+         #comp-l66nhddb {
+            width: 167px;
+            height: 39px;
+         }
+
+         /* END STYLABLE DIRECTIVE RULES */
+         #comp-l66nhddb .style-l66nhdee__root {
+            -st-extends: StylableButton;
+            transition: all 0.2s ease, visibility 0s;
+            border-radius: 7px;
+            border: 0px solid rgb(255, 248, 107);
+            background: #FFAC1C
+         }
+
+         /* START STYLABLE DIRECTIVE RULES */
+         #comp-l66nhddb .style-l66nhdee__root:hover {
+            border-radius: 20px
+         }
+
+         #comp-l66nhddb .style-l66nhdee__root:hover .StylableButton2545352419__icon {
+            width: 26px;
+            height: 26px
+         }
+
+         #comp-l66nhddb .style-l66nhdee__root:disabled {
+            background: #E2E2E2
+         }
+
+         #comp-l66nhddb .style-l66nhdee__root:disabled .StylableButton2545352419__label {
+            color: #8F8F8F
+         }
+
+         #comp-l66nhddb .style-l66nhdee__root:disabled .StylableButton2545352419__icon {
+            fill: #8F8F8F
+         }
+
+         #comp-l66nhddb .style-l66nhdee__root .StylableButton2545352419__container {
+            transition: inherit
+         }
+
+         #comp-l66nhddb .style-l66nhdee__root .StylableButton2545352419__label {
+            transition: inherit;
+            font-size: 16px;
+            display: initial;
+            font-family: poppins-semibold, poppins, sans-serif;
+            color: #FFFFFF
+         }
+
+         #comp-l66nhddb .style-l66nhdee__root .StylableButton2545352419__icon {
+            transition: inherit;
+            width: 14px;
+            height: 14px;
+            fill: #282626;
+            display: none
+         }
+
+         #comp-kf5lh886 {
+            --contentPaddingLeft: 0px;
+            --contentPaddingRight: 0px;
+            --contentPaddingTop: 0px;
+            --contentPaddingBottom: 0px;
+         }
+
+         #comp-kf5lh886 {
+            width: 222px;
+            height: 111px;
+         }
+
+         #comp-kf2qdw5w {
+            --contentPaddingLeft: 0px;
+            --contentPaddingRight: 0px;
+            --contentPaddingTop: 0px;
+            --contentPaddingBottom: 0px;
+         }
+
+         #comp-kf2qdw5w {
+            width: 80px;
+            height: 86px;
+         }
+
+         #comp-kf2qeyjm {
+            width: 873px;
+            height: auto;
+         }
+
+         #comp-kf2qi2ns {
+            left: 0;
+            margin-left: 0;
+            width: 100%;
+            min-width: 980px;
+         }
+
+         [data-mesh-id=comp-kf2qi2qhinlineContent] {
+            height: auto;
+            width: 100%;
+            position: static;
+            min-height: 689px;
+         }
+
+         #comp-kf2qi2ns {
+            --bg-overlay-color: transparent;
+            --bg-gradient: none;
+            --padding: 0px;
+            --margin: 0px;
+            min-width: 980px;
+            --firstChildMarginTop: -1px;
+            --lastChildMarginBottom: -1px;
+            --items-direction: row;
+         }
+
+         #comp-kf2qi2qh {
+            width: 980px;
+         }
+
+         #comp-kf2qi2qh {
+            --fill-layer-image-opacity: 1;
+            --bg-overlay-color: rgb(250, 250, 250);
+            --bg-gradient: none;
+            width: 100%;
+            --column-width: 980px;
+            --column-flex: 980;
+         }
+
+         #comp-kf2r0iqo {
+            width: 750px;
+            height: auto;
+         }
+
+         #comp-kf2r0iqo {
+            --min-height: 198px;
+         }
+
+         #comp-kf2r4qtl {
+            left: 0;
+            margin-left: 0;
+            width: 100%;
+            min-width: 980px;
+         }
+
+         [data-mesh-id=comp-kf2r4qv7inlineContent] {
+            height: auto;
+            width: 100%;
+            position: static;
+            min-height: 414px;
+         }
+
+         #comp-kf2r4qtl {
+            --bg-overlay-color: transparent;
+            --bg-gradient: none;
+            --padding: 0px;
+            --margin: 0px;
+            min-width: 980px;
+            --firstChildMarginTop: -1px;
+            --lastChildMarginBottom: -1px;
+            --items-direction: row;
+         }
+
+         #comp-kf2r4qv7 {
+            width: 980px;
+         }
+
+         #comp-kf2r4qv7 {
+            --fill-layer-image-opacity: 1;
+            --bg-overlay-color: rgb(250, 250, 250);
+            --bg-gradient: none;
+            width: 100%;
+            --column-width: 980px;
+            --column-flex: 980;
+         }
+
+         #comp-kf2r7t4x {
+            width: 750px;
+            height: auto;
+         }
+
+         #comp-kf2rulaq {
+            width: 750px;
+            height: auto;
+         }
+
+         #comp-kf2ruuo6 {
+            width: 906px;
+            height: auto;
+         }
+
+         #comp-kf2ruuo6 {
+            --min-height: 258px;
+         }
+
+         #comp-kf2s1hrm {
+            left: 0;
+            margin-left: 0;
+            width: 100%;
+            min-width: 980px;
+         }
+
+         [data-mesh-id=comp-kf2s1htvinlineContent] {
+            height: auto;
+            width: 100%;
+            position: static;
+            min-height: 462px;
+         }
+
+         #comp-kf2s1hrm {
+            --bg-overlay-color: transparent;
+            --bg-gradient: none;
+            --padding: 0px;
+            --margin: 0px;
+            min-width: 980px;
+            --firstChildMarginTop: -1px;
+            --lastChildMarginBottom: -1px;
+            --items-direction: row;
+         }
+
+         #comp-kf2s1htv {
+            width: 980px;
+         }
+
+         #comp-kf2s1htv {
+            --fill-layer-image-opacity: 1;
+            --bg-overlay-color: rgb(250, 250, 250);
+            --bg-gradient: none;
+            width: 100%;
+            --column-width: 980px;
+            --column-flex: 980;
+         }
+
+         #comp-kf3cuesz {
+            width: 750px;
+            height: auto;
+         }
+
+         #comp-kf3cuapq {
+            width: 750px;
+            height: auto;
+         }
+
+         #comp-kf3cvbwf {
+            width: 892px;
+            height: auto;
+         }
+
+         #comp-kf3czbap {
+            left: 0;
+            margin-left: 0;
+            width: 100%;
+            min-width: 980px;
+         }
+
+         [data-mesh-id=comp-kf3czbevinlineContent] {
+            height: auto;
+            width: 100%;
+            position: static;
+            min-height: 517px;
+         }
+
+         #comp-kf3czbap {
+            --bg-overlay-color: transparent;
+            --bg-gradient: none;
+            --padding: 0px;
+            --margin: 0px;
+            min-width: 980px;
+            --firstChildMarginTop: -1px;
+            --lastChildMarginBottom: -1px;
+            --items-direction: row;
+         }
+
+         #comp-kf3czbev {
+            width: 980px;
+         }
+
+         #comp-kf3czbev {
+            --fill-layer-image-opacity: 1;
+            --bg-overlay-color: rgb(143, 82, 161);
+            --bg-gradient: none;
+            width: 100%;
+            --column-width: 980px;
+            --column-flex: 980;
+         }
+
+         #comp-kf3d4kez {
+            width: 792px;
+            height: auto;
+         }
+
+         #comp-kf3d4kfv {
+            width: 803px;
+            height: auto;
+         }
+
+         #comp-kf3d4kfv {
+            --min-height: 177px;
+         }
+
+         #comp-kf3d8vpu {
+            left: 0;
+            margin-left: 0;
+            width: 100%;
+            min-width: 980px;
+         }
+
+         [data-mesh-id=comp-kf3d8vt8inlineContent] {
+            height: auto;
+            width: 100%;
+            position: static;
+            min-height: 444px;
+         }
+
+         #comp-kf3d8vpu {
+            --bg-overlay-color: transparent;
+            --bg-gradient: none;
+            --padding: 0px;
+            --margin: 0px;
+            min-width: 980px;
+            --firstChildMarginTop: -1px;
+            --lastChildMarginBottom: -1px;
+            --items-direction: row;
+         }
+
+         #comp-kf3d8vt8 {
+            width: 980px;
+         }
+
+         #comp-kf3d8vt8 {
+            --fill-layer-image-opacity: 1;
+            --bg-overlay-color: rgb(143, 82, 161);
+            --bg-gradient: none;
+            width: 100%;
+            --column-width: 980px;
+            --column-flex: 980;
+         }
+
+         #comp-kf3ddjrk {
+            width: 792px;
+            height: auto;
+         }
+
+         #comp-kf3dfhmh {
+            width: 642px;
+            height: auto;
+         }
+
+         #comp-kf3dfhnl {
+            --rd: 8px 8px 8px 8px;
+            --trans1: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+            --shd: none;
+            --fnt: normal normal normal 18px/1.4em wfont_16605b_021b891eddd9465489c2e8fda7072a8b, wf_021b891eddd9465489c2e8fda, orig_open_sans;
+            --trans2: color 0.4s ease 0s;
+            --txt: 255, 255, 255;
+            --brw: 0px;
+            --bg: 143, 82, 161;
+            --brd: var(--color_14);
+            --bgh: var(--color_12);
+            --brdh: var(--color_12);
+            --txth: var(--color_15);
+            --bgd: 204, 204, 204;
+            --alpha-bgd: 1;
+            --brdd: 204, 204, 204;
+            --alpha-brdd: 1;
+            --txtd: 255, 255, 255;
+            --alpha-txtd: 1;
+            --boxShadowToggleOn-shd: none;
+            --alpha-txt: 1;
+            --alpha-brdh: 1;
+            --alpha-brd: 1;
+            --alpha-txth: 1;
+            --alpha-bg: 1;
+            --alpha-bgh: 1;
+         }
+
+         #comp-kf3dfhnl {
+            width: 223px;
+            height: 51px;
+         }
+
+         #comp-kf3dfhnl {
+            --shc-mutated-brightness: 72, 41, 81;
+            --margin-start: 0px;
+            --margin-end: 0px;
+            --fnt: normal normal normal 18px/1.4em wfont_16605b_021b891eddd9465489c2e8fda7072a8b, wf_021b891eddd9465489c2e8fda, orig_open_sans;
+            --label-align: center;
+            --label-text-align: center;
+         }
+
+         #comp-kf3dilyv {
+            --shd: none;
+            --brw: 0px;
+            --brd: 255, 255, 255;
+            --contentPaddingLeft: 0px;
+            --contentPaddingRight: 0px;
+            --contentPaddingBottom: 0px;
+            --contentPaddingTop: 0px;
+            --alpha-brd: 1;
+            --boxShadowToggleOn-shd: none;
+         }
+
+         #comp-kf3dilyv {
+            width: 157px;
+            height: 155px;
+         }
+
+         #comp-kf3dqx7l {
+            width: 624px;
+            height: auto;
+         }
+
+         #comp-kf3dtn4c {
+            width: 624px;
+            height: auto;
+         }
+
+         #comp-kf3dva6d {
+            width: 662px;
+         }
+
+         [data-mesh-id=comp-kf3dva6dinlineContent] {
+            height: auto;
+            width: 662px;
+         }
+
+         [data-mesh-id=comp-kf3dva6dinlineContent-gridContainer] {
+            position: static;
+            display: grid;
+            height: auto;
+            width: 100%;
+            min-height: auto;
+            grid-template-rows: 1fr;
+            grid-template-columns: 100%;
+         }
+
+         [data-mesh-id="comp-kf3dva8r-rotated-wrapper"]>[id="comp-kf3dva8r"] {
+            position: relative;
+            left: 559px;
+            top: 0px;
+         }
+
+         [data-mesh-id=comp-kf3dva6dinlineContent-gridContainer]>[id="comp-kf3dva8m"] {
+            position: relative;
+            margin: 4px 0px 3px 0;
+            left: 0px;
+            grid-area: 1 / 1 / 2 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         [data-mesh-id=comp-kf3dva8r-rotated-wrapper] {
+            position: static;
+            height: 39px;
+            width: 0;
+            margin: 0px 0px 0px 0;
+            grid-area: 1 / 1 / 2 / 2;
+            justify-self: start;
+            align-self: start;
+         }
+
+         #comp-kf3dva8m {
+            width: 662px;
+            height: auto;
+         }
+
+         #comp-kf3dva8r {
+            width: 39px;
+            height: 39px;
+            transform: rotate(90deg);
+            --comp-rotate-z: 90deg;
+         }
+      </style>
+   </pages-css>
+   <!-- initCustomElements # 1-->
+   <script src=../scripts/global1.js
+           data-url=https://static.parastorage.com/services/wix-thunderbolt/dist/webpack-runtime.b94d6877.bundle.min.js></script>
+   <script src=../scripts/global2.js
+           data-url=https://static.parastorage.com/services/wix-thunderbolt/dist/fastdom.inline.fbeb22f8.bundle.min.js></script>
+   <script src=../scripts/global3.js
+           data-url=https://static.parastorage.com/services/wix-thunderbolt/dist/custom-element-utils.inline.744264ab.bundle.min.js></script>
+   <script src=../scripts/global4.js
+           data-url=https://static.parastorage.com/services/wix-thunderbolt/dist/initCustomElements.inline.432af6c4.bundle.min.js></script>
+   <div id="SITE_CONTAINER">
+      <div id="main_MF" class="main_MF">
+         <div id="SCROLL_TO_TOP" class="Vd6aQZ ignore-focus SCROLL_TO_TOP" tabindex="-1" role="region"
+              aria-label="top of page"><span class="mHZSwn">top of page</span></div>
+         <div id="BACKGROUND_GROUP" class="BACKGROUND_GROUP">
+            <div id="BACKGROUND_GROUP_TRANSITION_GROUP">
+               <div id="pageBackground_jlhbu" data-media-height-override-type="" data-media-position-override="false"
+                    class="pageBackground_jlhbu BmZ5pC">
+                  <div id="bgLayers_pageBackground_jlhbu" data-hook="bgLayers" data-motion-part="BG_LAYER"
+                       class="MW5IWV">
+                     <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
+                     <div id="bgMedia_pageBackground_jlhbu" data-motion-part="BG_MEDIA" class="VgO9Yg"></div>
+                     <div data-testid="bgOverlay" class="m4khSP"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="site-root" class="site-root">
+            <div id="masterPage" class="mesh-layout masterPage css-editing-scope">
+               <header id="nav-menu" aria-label="navigation bar">
+                  <div class="container">
+                    <div class="nav-start">
+                      <a class="logo" href="/">
+                        <img src="./assets/images/BR-logo-transparent.png"
+                             alt="Inc Logo" />
+                      </a>
+       
+                      
+                      <div id="navbar-container"></div> 
+                        
+                      <script src="../scripts/navFetch.js"></script>
+                      
+      
+      
+                      
+                     <!-- nav hereeeeeeeeeeeeeeeeeeeeeeeeeeeee -->
+                    </div>
+                    <!-- <div class="nav-end">
+                      <div class="right-container">
+                        <button class="btn btn-primary">Create</button>
+                      </div>
+                      <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                      </button>
+                    </div> -->
+                  </div>
+                </header>
+               <main id="PAGES_CONTAINER" class="PAGES_CONTAINER" tabindex="-1" data-main-content="true">
+                  <div id="SITE_PAGES" data-page-transition="OutIn" class="JsJXaX SITE_PAGES">
+                     <div id="SITE_PAGES_TRANSITION_GROUP" class="AnQkDU">
+                        <div id="jlhbu" class="dBAkHi jlhbu">
+                           <div class="PFkO7r wixui-page" data-testid="page-bg"></div>
+                           <div class="HT5ybB">
+                              <div id="Containerjlhbu" class="Containerjlhbu SPY_vo">
+                                 <div data-mesh-id="ContainerjlhbuinlineContent" data-testid="inline-content" class="">
+                                    <div data-mesh-id="ContainerjlhbuinlineContent-gridContainer"
+                                         data-testid="mesh-container-content">
+                                       <div id="comp-l66nhddb" class="comp-l66nhddb" data-semantic-classname="button"><a
+                                             data-testid="linkElement"
+                                             href="https://www.brighterminds.org/bm-registration" target="_self"
+                                             class="StylableButton2545352419__root style-l66nhdee__root wixui-button StylableButton2545352419__link"
+                                             aria-label="Enquire Now">
+                                             <div class="StylableButton2545352419__container"><span
+                                                      class="StylableButton2545352419__label wixui-button__label"
+                                                      data-testid="stylablebutton-label">Enquire Now</span><span
+                                                      class="StylableButton2545352419__icon wixui-button__icon"
+                                                      aria-hidden="true" data-testid="stylablebutton-icon">
+                                                   <div><svg data-bbox="13.05 2.55 33.878 54.8"
+                                                           xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+                                                         <g>
+                                                            <path
+                                                                  d="M46.5 28.9L20.6 3c-.6-.6-1.6-.6-2.2 0l-4.8 4.8c-.6.6-.6 1.6 0 2.2l19.8 20-19.9 19.9c-.6.6-.6 1.6 0 2.2l4.8 4.8c.6.6 1.6.6 2.2 0l21-21 4.8-4.8c.8-.6.8-1.6.2-2.2z" />
+                                                         </g>
+                                                      </svg>
+                                                   </div>
+                                                </span></div>
+                                          </a></div>
+                                       <div id="comp-kf5lh886" class="MazNVa comp-kf5lh886 wixui-image">
+                                          <div data-testid="linkElement" class="j7pOnl"><wow-image
+                                                        id="img_comp-kf5lh886" class="HlRz5e BI8PVQ"
+                                                        data-image-info="{&quot;containerId&quot;:&quot;comp-kf5lh886&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:222,&quot;targetHeight&quot;:111,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:456,&quot;height&quot;:221,&quot;uri&quot;:&quot;16605b_9ef95f8d65b845ffb57e247d38f0858f~mv2.png&quot;,&quot;name&quot;:&quot;Untitled-1.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                        data-bg-effect-name="" data-has-ssr-src=""><img
+                                                     src="https://static.wixstatic.com/media/16605b_9ef95f8d65b845ffb57e247d38f0858f~mv2.png/v1/fill/w_222,h_111,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled-1.png"
+                                                     alt="Untitled-1.png"
+                                                     style="width:222px;height:111px;object-fit:cover" width="222"
+                                                     height="111"
+                                                     srcSet="https://static.wixstatic.com/media/16605b_9ef95f8d65b845ffb57e247d38f0858f~mv2.png/v1/fill/w_222,h_111,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled-1.png 1x, https://static.wixstatic.com/media/16605b_9ef95f8d65b845ffb57e247d38f0858f~mv2.png/v1/fill/w_444,h_222,al_c,lg_1,q_85,enc_auto/Untitled-1.png 2x"
+                                                     fetchpriority="high" /></wow-image></div>
+                                       </div>
+                                       <div id="comp-kf2qdw5w" class="MazNVa comp-kf2qdw5w wixui-image">
+                                          <div data-testid="linkElement" class="j7pOnl"><wow-image
+                                                        id="img_comp-kf2qdw5w" class="HlRz5e BI8PVQ"
+                                                        data-image-info="{&quot;containerId&quot;:&quot;comp-kf2qdw5w&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:80,&quot;targetHeight&quot;:86,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:360,&quot;height&quot;:399,&quot;uri&quot;:&quot;16605b_cb095361803c4079bbaafdba2ae4e143~mv2.png&quot;,&quot;name&quot;:&quot;sun.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                        data-bg-effect-name="" data-has-ssr-src=""><img
+                                                     src="https://static.wixstatic.com/media/16605b_cb095361803c4079bbaafdba2ae4e143~mv2.png/v1/fill/w_80,h_86,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/sun.png"
+                                                     alt="sun.png" style="width:80px;height:86px;object-fit:cover"
+                                                     width="80" height="86"
+                                                     srcSet="https://static.wixstatic.com/media/16605b_cb095361803c4079bbaafdba2ae4e143~mv2.png/v1/fill/w_80,h_86,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/sun.png 1x, https://static.wixstatic.com/media/16605b_cb095361803c4079bbaafdba2ae4e143~mv2.png/v1/fill/w_160,h_172,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/sun.png 2x"
+                                                     fetchpriority="high" /></wow-image></div>
+                                       </div>
+                                       <div id="comp-kf2qeyjm"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf2qeyjm wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:50px; line-height:1em; text-align:center;"><span
+                                                   style="letter-spacing:0em;" class="wixui-rich-text__text"><span
+                                                      style="font-size:50px;" class="wixui-rich-text__text"><span
+                                                         style="color:#8F52A1;" class="wixui-rich-text__text"><span
+                                                            style="font-family:wfont_16605b_7a972c50a47f4a5faa23d8212ff3642c,wf_7a972c50a47f4a5faa23d8212,orig_catamaran_black;"
+                                                            class="wixui-rich-text__text">BUILD A BRIGHTER
+                                                         FOUNDATION</span></span></span></span></p>
+                                       </div>
+                                       <section id="comp-kf2qi2ns" class="comp-kf2qi2ns CohWsy wixui-column-strip">
+                                          <div id="bgLayers_comp-kf2qi2ns" data-hook="bgLayers"
+                                               data-motion-part="BG_LAYER" class="if7Vw2">
+                                             <div data-testid="colorUnderlay" class="tcElKx i1tH8h"></div>
+                                             <div id="bgMedia_comp-kf2qi2ns" data-motion-part="BG_MEDIA" class="wG8dni">
+                                             </div>
+                                          </div>
+                                          <div data-testid="columns" class="V5AUxf">
+                                             <div id="comp-kf2qi2qh"
+                                                  class="comp-kf2qi2qh YzqVVZ wixui-column-strip__column">
+                                                <div id="bgLayers_comp-kf2qi2qh" data-hook="bgLayers"
+                                                     data-motion-part="BG_LAYER" class="MW5IWV">
+                                                   <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
+                                                   <div id="bgMedia_comp-kf2qi2qh" data-motion-part="BG_MEDIA"
+                                                        class="VgO9Yg"><wow-image id="img_comp-kf2qi2qh"
+                                                                 class="HlRz5e Kv1aVt dLPlxY mNGsUM bgImage"
+                                                                 data-image-info="{&quot;containerId&quot;:&quot;comp-kf2qi2qh&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:980,&quot;targetHeight&quot;:689,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:2967,&quot;height&quot;:1137,&quot;uri&quot;:&quot;75dc1e_6513701b16db40c3ae5d7abedc687598~mv2.jpg&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                                 data-bg-effect-name="" data-has-ssr-src="true"><img
+                                                              src="https://static.wixstatic.com/media/75dc1e_6513701b16db40c3ae5d7abedc687598~mv2.jpg/v1/fill/w_147,h_56,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_auto/75dc1e_6513701b16db40c3ae5d7abedc687598~mv2.jpg"
+                                                              alt=""
+                                                              style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"
+                                                              width="980" height="689" /></wow-image></div>
+                                                </div>
+                                                <div data-mesh-id="comp-kf2qi2qhinlineContent"
+                                                     data-testid="inline-content" class="">
+                                                   <div data-mesh-id="comp-kf2qi2qhinlineContent-gridContainer"
+                                                        data-testid="mesh-container-content"></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </section>
+                                       <div id="comp-kf2r0iqo"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf2r0iqo wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:18px; line-height:1.8em; text-align:center;"><span
+                                                   style="font-size:18px;" class="wixui-rich-text__text"><span
+                                                      style="letter-spacing:0.02em;" class="wixui-rich-text__text"><span
+                                                         style="color:#585859;" class="wixui-rich-text__text"><span
+                                                            style="font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light;"
+                                                            class="wixui-rich-text__text">Alpha, our foundational
+                                                         program, is a perfectly balanced sequence of mental,
+                                                         physical</span></span></span></span><span
+                                                   style="color:rgb(88, 88, 89); font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light; letter-spacing:0.02em;"
+                                                   class="wixui-rich-text__text"> and spiritual activities designed to
+                                                strengthen the innate connection between the two hemispheres of the
+                                                brain for 5 to 15 year olds. By unlocking one&#39;s natural capacity for
+                                                observation and intuition at a stage of development where the brain is
+                                                highly mouldable, the program equips the child to engage the full
+                                                spectrum of their cognitive abilities.</span></p>
+                                       </div>
+                                       <section id="comp-kf2r4qtl" class="comp-kf2r4qtl CohWsy wixui-column-strip">
+                                          <div id="bgLayers_comp-kf2r4qtl" data-hook="bgLayers"
+                                               data-motion-part="BG_LAYER" class="if7Vw2">
+                                             <div data-testid="colorUnderlay" class="tcElKx i1tH8h"></div>
+                                             <div id="bgMedia_comp-kf2r4qtl" data-motion-part="BG_MEDIA" class="wG8dni">
+                                             </div>
+                                          </div>
+                                          <div data-testid="columns" class="V5AUxf">
+                                             <div id="comp-kf2r4qv7"
+                                                  class="comp-kf2r4qv7 YzqVVZ wixui-column-strip__column">
+                                                <div id="bgLayers_comp-kf2r4qv7" data-hook="bgLayers"
+                                                     data-motion-part="BG_LAYER" class="MW5IWV">
+                                                   <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
+                                                   <div id="bgMedia_comp-kf2r4qv7" data-motion-part="BG_MEDIA"
+                                                        class="VgO9Yg"><wow-image id="img_comp-kf2r4qv7"
+                                                                 class="HlRz5e Kv1aVt dLPlxY mNGsUM bgImage"
+                                                                 data-image-info="{&quot;containerId&quot;:&quot;comp-kf2r4qv7&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:980,&quot;targetHeight&quot;:414,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:1500,&quot;height&quot;:485,&quot;uri&quot;:&quot;16605b_6367119970984e1da4a4bba002485195~mv2.jpg&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                                 data-bg-effect-name="" data-has-ssr-src="true"><img
+                                                              src="https://static.wixstatic.com/media/16605b_6367119970984e1da4a4bba002485195~mv2.jpg/v1/fill/w_147,h_48,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_auto/16605b_6367119970984e1da4a4bba002485195~mv2.jpg"
+                                                              alt="small_banner.jpg"
+                                                              style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"
+                                                              width="980" height="414" /></wow-image></div>
+                                                </div>
+                                                <div data-mesh-id="comp-kf2r4qv7inlineContent"
+                                                     data-testid="inline-content" class="">
+                                                   <div data-mesh-id="comp-kf2r4qv7inlineContent-gridContainer"
+                                                        data-testid="mesh-container-content"></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </section>
+                                       <div id="comp-kf2r7t4x"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf2r7t4x wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:50px; line-height:0.8em; text-align:center;"><span
+                                                   style="letter-spacing:0em;" class="wixui-rich-text__text"><span
+                                                      style="font-size:50px;" class="wixui-rich-text__text"><span
+                                                         style="color:#8F52A1;" class="wixui-rich-text__text"><span
+                                                            style="font-family:wfont_16605b_7a972c50a47f4a5faa23d8212ff3642c,wf_7a972c50a47f4a5faa23d8212,orig_catamaran_black;"
+                                                            class="wixui-rich-text__text">WHY EXERCISE ONLY
+                                                         ONE</span></span></span></span><span
+                                                   style="letter-spacing:0em;" class="wixui-rich-text__text"><span
+                                                      style="font-size:50px;" class="wixui-rich-text__text"><span
+                                                         style="color:#8F52A1;" class="wixui-rich-text__text"><span
+                                                            style="font-family:wfont_16605b_7a972c50a47f4a5faa23d8212ff3642c,wf_7a972c50a47f4a5faa23d8212,orig_catamaran_black;"
+                                                            class="wixui-rich-text__text"> PART OF YOUR
+                                                         BRAIN?</span></span></span></span></p>
+                                       </div>
+                                       <div id="comp-kf2rulaq"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf2rulaq wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:23px; line-height:1em; text-align:center;"><span
+                                                   style="font-size:23px;" class="wixui-rich-text__text"><span
+                                                      style="font-family:wfont_16605b_803cd4f0dbce4d95b42e5db407ba4321,wf_803cd4f0dbce4d95b42e5db40,orig_open_sans_semibold;"
+                                                      class="wixui-rich-text__text"><span style="letter-spacing:0.02em;"
+                                                         class="wixui-rich-text__text"><span style="color:#585859;"
+                                                            class="wixui-rich-text__text">Different parts of the brain
+                                                         control different functionalities.</span></span></span></span>
+                                          </p>
+                                       </div>
+                                       <div id="comp-kf2ruuo6"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf2ruuo6 wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:18px; line-height:1.8em; text-align:center;"><span
+                                                   style="font-size:18px;" class="wixui-rich-text__text"><span
+                                                      style="letter-spacing:0.02em;" class="wixui-rich-text__text"><span
+                                                         style="color:#585859;" class="wixui-rich-text__text"><span
+                                                            style="font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light;"
+                                                            class="wixui-rich-text__text">In a world full of
+                                                         distractions and an exam-driven formal education system, there
+                                                         is an unequal emphasis on developing the logical and analytical
+                                                         side of the brain. In the formative years, the neural networks
+                                                         in a child&#39;s brain are flexible and adaptable, making the
+                                                         brain more elastic. Activating the whole brain at this stage
+                                                         primes it to learn better. Alpha&#39;s research-based
+                                                         stimulating and relaxing activities open up and catalyse hidden
+                                                         pathways of the brain, helping them grow in different
+                                                         directions. This enables children to understand and, therefore,
+                                                         cope with their surroundings and situations more
+                                                         effectively.</span></span></span></span></p>
+                                       </div>
+                                       <section id="comp-kf2s1hrm" class="comp-kf2s1hrm CohWsy wixui-column-strip">
+                                          <div id="bgLayers_comp-kf2s1hrm" data-hook="bgLayers"
+                                               data-motion-part="BG_LAYER" class="if7Vw2">
+                                             <div data-testid="colorUnderlay" class="tcElKx i1tH8h"></div>
+                                             <div id="bgMedia_comp-kf2s1hrm" data-motion-part="BG_MEDIA" class="wG8dni">
+                                             </div>
+                                          </div>
+                                          <div data-testid="columns" class="V5AUxf">
+                                             <div id="comp-kf2s1htv"
+                                                  class="comp-kf2s1htv YzqVVZ wixui-column-strip__column">
+                                                <div id="bgLayers_comp-kf2s1htv" data-hook="bgLayers"
+                                                     data-motion-part="BG_LAYER" class="MW5IWV">
+                                                   <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
+                                                   <div id="bgMedia_comp-kf2s1htv" data-motion-part="BG_MEDIA"
+                                                        class="VgO9Yg"><wow-image id="img_comp-kf2s1htv"
+                                                                 class="HlRz5e Kv1aVt dLPlxY mNGsUM bgImage"
+                                                                 data-image-info="{&quot;containerId&quot;:&quot;comp-kf2s1htv&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:980,&quot;targetHeight&quot;:462,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:1688,&quot;height&quot;:458,&quot;uri&quot;:&quot;75dc1e_a6bd90d699954ef188b50f4ed6a03e21~mv2.jpg&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                                 data-bg-effect-name="" data-has-ssr-src="true"><img
+                                                              src="https://static.wixstatic.com/media/75dc1e_a6bd90d699954ef188b50f4ed6a03e21~mv2.jpg/v1/fill/w_147,h_40,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_auto/75dc1e_a6bd90d699954ef188b50f4ed6a03e21~mv2.jpg"
+                                                              alt=""
+                                                              style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"
+                                                              width="980" height="462" /></wow-image></div>
+                                                </div>
+                                                <div data-mesh-id="comp-kf2s1htvinlineContent"
+                                                     data-testid="inline-content" class="">
+                                                   <div data-mesh-id="comp-kf2s1htvinlineContent-gridContainer"
+                                                        data-testid="mesh-container-content"></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </section>
+                                       <div id="comp-kf3cuesz"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf3cuesz wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:35px; line-height:1.2em; text-align:center;"><span
+                                                   style="font-size:35px;" class="wixui-rich-text__text"><span
+                                                      style="color:#8F52A1;" class="wixui-rich-text__text"><span
+                                                         style="font-family:wfont_16605b_7a972c50a47f4a5faa23d8212ff3642c,wf_7a972c50a47f4a5faa23d8212,orig_catamaran_black;"
+                                                         class="wixui-rich-text__text"><span
+                                                            style="letter-spacing:0.02em;"
+                                                            class="wixui-rich-text__text">How it
+                                                         works</span></span></span></span></p>
+                                       </div>
+                                       <div id="comp-kf3cuapq"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf3cuapq wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:50px; line-height:1em; text-align:center;"><span
+                                                   style="font-size:50px;" class="wixui-rich-text__text"><span
+                                                      style="color:#8F52A1;" class="wixui-rich-text__text"><span
+                                                         style="font-family:wfont_16605b_7a972c50a47f4a5faa23d8212ff3642c,wf_7a972c50a47f4a5faa23d8212,orig_catamaran_black;"
+                                                         class="wixui-rich-text__text"><span
+                                                            style="letter-spacing:0.02em;"
+                                                            class="wixui-rich-text__text">WHOLE-BRAIN
+                                                         ACTIVATION</span></span></span></span></p>
+                                       </div>
+                                       <div id="comp-kf3cvbwf"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf3cvbwf wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:18px; line-height:1.8em; text-align:center;"><span
+                                                   style="color:rgb(88, 88, 89); font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light; letter-spacing:0.02em;"
+                                                   class="wixui-rich-text__text">The program consists of a finely-tuned
+                                                balance of exercises that activate and relax different lobes of the
+                                                brain, all within a positive learning environment. These include brain,
+                                                eyeball, journaling and breathing exercises, music and dance as well as
+                                                prayer and relaxation sessions. By strengthening the child&#39;s
+                                                capacity to absorb, observe, remember, imagine, empathise, these
+                                                exercises help children expand their </span><span
+                                                   style="color:rgb(88, 88, 89); font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light; letter-spacing:0.02em;"
+                                                   class="wixui-rich-text__text">horizons, while gaining confidence in
+                                                themselves.</span></p>
+                                       </div>
+                                       <section id="comp-kf3czbap" class="comp-kf3czbap CohWsy wixui-column-strip">
+                                          <div id="bgLayers_comp-kf3czbap" data-hook="bgLayers"
+                                               data-motion-part="BG_LAYER" class="if7Vw2">
+                                             <div data-testid="colorUnderlay" class="tcElKx i1tH8h"></div>
+                                             <div id="bgMedia_comp-kf3czbap" data-motion-part="BG_MEDIA" class="wG8dni">
+                                             </div>
+                                          </div>
+                                          <div data-testid="columns" class="V5AUxf">
+                                             <div id="comp-kf3czbev"
+                                                  class="comp-kf3czbev YzqVVZ wixui-column-strip__column">
+                                                <div id="bgLayers_comp-kf3czbev" data-hook="bgLayers"
+                                                     data-motion-part="BG_LAYER" class="MW5IWV">
+                                                   <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
+                                                   <div id="bgMedia_comp-kf3czbev" data-motion-part="BG_MEDIA"
+                                                        class="VgO9Yg"><wow-image id="img_comp-kf3czbev"
+                                                                 class="HlRz5e Kv1aVt dLPlxY mNGsUM bgImage"
+                                                                 data-image-info="{&quot;containerId&quot;:&quot;comp-kf3czbev&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:980,&quot;targetHeight&quot;:517,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:2011,&quot;height&quot;:608,&quot;uri&quot;:&quot;75dc1e_9b6d82d20f6040a2a78587781637da51~mv2.jpg&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                                 data-bg-effect-name="" data-has-ssr-src="true"><img
+                                                              src="https://static.wixstatic.com/media/75dc1e_9b6d82d20f6040a2a78587781637da51~mv2.jpg/v1/fill/w_147,h_44,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_auto/75dc1e_9b6d82d20f6040a2a78587781637da51~mv2.jpg"
+                                                              alt=""
+                                                              style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"
+                                                              width="980" height="517" /></wow-image></div>
+                                                </div>
+                                                <div data-mesh-id="comp-kf3czbevinlineContent"
+                                                     data-testid="inline-content" class="">
+                                                   <div data-mesh-id="comp-kf3czbevinlineContent-gridContainer"
+                                                        data-testid="mesh-container-content"></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </section>
+                                       <div id="comp-kf3d4kez"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf3d4kez wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:50px; line-height:1em; text-align:center;"><span
+                                                   style="color:rgb(143, 82, 161); font-family:wfont_16605b_7a972c50a47f4a5faa23d8212ff3642c,wf_7a972c50a47f4a5faa23d8212,orig_catamaran_black; letter-spacing:0.02em;"
+                                                   class="wixui-rich-text__text">8 WEEKS TO A BRIGHTER MIND</span></p>
+                                       </div>
+                                       <div id="comp-kf3d4kfv"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf3d4kfv wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:18px; line-height:1.8em; text-align:center;"><span
+                                                   style="color:rgb(88, 88, 89); font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light; letter-spacing:0.02em;"
+                                                   class="wixui-rich-text__text">The Alpha program is an 8-week program.
+                                                The first two introductory sessions of 4.5 hours each are conducted on
+                                                two consecutive days, preferably on weekends. The 7 follow up sessions
+                                                of&nbsp; </span><span
+                                                   style="color:rgb(88, 88, 89); font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light; letter-spacing:0.02em;"
+                                                   class="wixui-rich-text__text">3 hours each are conducted once a week.
+                                                The Alpha program is a total of 30 hours and will require an 8-week
+                                                commitment on the part of children enrolled in this program.</span></p>
+                                       </div>
+                                       <section id="comp-kf3d8vpu" class="comp-kf3d8vpu CohWsy wixui-column-strip">
+                                          <div id="bgLayers_comp-kf3d8vpu" data-hook="bgLayers"
+                                               data-motion-part="BG_LAYER" class="if7Vw2">
+                                             <div data-testid="colorUnderlay" class="tcElKx i1tH8h"></div>
+                                             <div id="bgMedia_comp-kf3d8vpu" data-motion-part="BG_MEDIA" class="wG8dni">
+                                             </div>
+                                          </div>
+                                          <div data-testid="columns" class="V5AUxf">
+                                             <div id="comp-kf3d8vt8"
+                                                  class="comp-kf3d8vt8 YzqVVZ wixui-column-strip__column">
+                                                <div id="bgLayers_comp-kf3d8vt8" data-hook="bgLayers"
+                                                     data-motion-part="BG_LAYER" class="MW5IWV">
+                                                   <div data-testid="colorUnderlay" class="LWbAav Kv1aVt"></div>
+                                                   <div id="bgMedia_comp-kf3d8vt8" data-motion-part="BG_MEDIA"
+                                                        class="VgO9Yg"><wow-image id="img_comp-kf3d8vt8"
+                                                                 class="HlRz5e Kv1aVt dLPlxY mNGsUM bgImage"
+                                                                 data-image-info="{&quot;containerId&quot;:&quot;comp-kf3d8vt8&quot;,&quot;alignType&quot;:&quot;center&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:980,&quot;targetHeight&quot;:444,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:2734,&quot;height&quot;:690,&quot;uri&quot;:&quot;75dc1e_45f53b6cd1ef49f189c1b43c6aa21f78~mv2.png&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                                 data-bg-effect-name="" data-has-ssr-src="true"><img
+                                                              src="https://static.wixstatic.com/media/75dc1e_45f53b6cd1ef49f189c1b43c6aa21f78~mv2.png/v1/fill/w_49,h_12,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_auto/75dc1e_45f53b6cd1ef49f189c1b43c6aa21f78~mv2.png"
+                                                              alt=""
+                                                              style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"
+                                                              width="980" height="444" /></wow-image></div>
+                                                </div>
+                                                <div data-mesh-id="comp-kf3d8vt8inlineContent"
+                                                     data-testid="inline-content" class="">
+                                                   <div data-mesh-id="comp-kf3d8vt8inlineContent-gridContainer"
+                                                        data-testid="mesh-container-content"></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </section>
+                                       <div id="comp-kf3ddjrk"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf3ddjrk wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:50px; line-height:1em; text-align:center;"><span
+                                                   style="color:rgb(143, 82, 161); font-family:wfont_16605b_7a972c50a47f4a5faa23d8212ff3642c,wf_7a972c50a47f4a5faa23d8212,orig_catamaran_black; letter-spacing:0.02em;"
+                                                   class="wixui-rich-text__text">GIVE YOUR CHILD</span></p>
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:50px; line-height:1em; text-align:center;"><span
+                                                   style="color:rgb(143, 82, 161); font-family:wfont_16605b_7a972c50a47f4a5faa23d8212ff3642c,wf_7a972c50a47f4a5faa23d8212,orig_catamaran_black; letter-spacing:0.02em;"
+                                                   class="wixui-rich-text__text">THE GIFT OF A LIFETIME</span></p>
+                                       </div>
+                                       <div id="comp-kf3dfhmh"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf3dfhmh wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:23px; line-height:1.4em; text-align:center;"><span
+                                                   style="font-size:23px;" class="wixui-rich-text__text"><span
+                                                      style="color:#000000;" class="wixui-rich-text__text"><span
+                                                         style="letter-spacing:0.02em;"
+                                                         class="wixui-rich-text__text"><span
+                                                            style="font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light;"
+                                                            class="wixui-rich-text__text">To know more about our
+                                                         programs and </span></span></span></span></p>
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:23px; line-height:1.4em; text-align:center;"><span
+                                                   style="font-size:23px;" class="wixui-rich-text__text"><span
+                                                      style="color:#000000;" class="wixui-rich-text__text"><span
+                                                         style="letter-spacing:0.02em;"
+                                                         class="wixui-rich-text__text"><span
+                                                            style="font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light;"
+                                                            class="wixui-rich-text__text">enrol in upcoming sessions,
+                                                         get in touch</span></span></span></span></p>
+                                       </div>
+                                       <div class="comp-kf3dfhnl FubTgk" id="comp-kf3dfhnl" aria-disabled="false"><a
+                                             data-testid="linkElement"
+                                             href="https://www.brighterminds.org/bm-registration" target="_self"
+                                             class="uDW_Qe wixui-button PlZyDq" aria-disabled="false"><span
+                                                   class="l7_2fn wixui-button__label">ENROL NOW!</span></a></div>
+                                       <div id="comp-kf3dilyv" class="dWLwCn comp-kf3dilyv wixui-image"
+                                            title="guy4.jpg">
+                                          <div data-testid="linkElement" class="mGoGm2"><wow-image
+                                                        id="img_comp-kf3dilyv" class="HlRz5e lDHlrQ"
+                                                        data-image-info="{&quot;containerId&quot;:&quot;comp-kf3dilyv&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:157,&quot;targetHeight&quot;:155,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:3545,&quot;height&quot;:5760,&quot;uri&quot;:&quot;16605b_a70c9bea2eb142afb606e27638f18086~mv2.jpg&quot;,&quot;name&quot;:&quot;30953192662_d3c88f60a9_o.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                        data-bg-effect-name="" data-has-ssr-src="true"><img
+                                                     src="https://static.wixstatic.com/media/16605b_a70c9bea2eb142afb606e27638f18086~mv2.jpg/v1/fill/w_95,h_155,al_c,q_80,usm_0.66_1.00_0.01,blur_3,enc_auto/30953192662_d3c88f60a9_o.jpg"
+                                                     alt="30953192662_d3c88f60a9_o.jpg"
+                                                     style="width:100%;height:100%;object-fit:cover;object-position:50% 50%"
+                                                     width="157" height="155" /></wow-image></div>
+                                       </div>
+                                       <div id="comp-kf3dqx7l"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf3dqx7l wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:18px; line-height:1.4em;"><span
+                                                   style="color:rgb(88, 88, 89); font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light; letter-spacing:0.02em;"
+                                                   class="wixui-rich-text__text">I used to get very angry as I am a very
+                                                short-tempered girl, but nowadays, I can interact with my friends
+                                                properly. I keep myself calm. Brighter Minds Alpha Program has helped me
+                                                become calmer.</span></p>
+                                       </div>
+                                       <div id="comp-kf3dtn4c"
+                                            class="HcOXKn SxM0TO QxJLC3 comp-kf3dtn4c wixui-rich-text"
+                                            data-testid="richTextElement">
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:14px; line-height:1.4em;"><span style="font-size:14px;"
+                                                   class="wixui-rich-text__text"><span style="font-weight:bold;"
+                                                      class="wixui-rich-text__text"><span
+                                                         style="color:rgb(88, 88, 89); font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light; letter-spacing:0.02em;"
+                                                         class="wixui-rich-text__text">PRIYA</span></span></span></p>
+                                          <p class="font_8 wixui-rich-text__text"
+                                             style="font-size:14px; line-height:1.4em;"><span style="font-size:14px;"
+                                                   class="wixui-rich-text__text"><span
+                                                      style="color:rgb(88, 88, 89); font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light; letter-spacing:0.02em;"
+                                                      class="wixui-rich-text__text">Brighter Minds, Pune
+                                                   Center</span></span></p>
+                                       </div>
+                                       <div id="comp-kf3dva6d" class="comp-kf3dva6d SPY_vo">
+                                          <div data-mesh-id="comp-kf3dva6dinlineContent" data-testid="inline-content"
+                                               class="">
+                                             <div data-mesh-id="comp-kf3dva6dinlineContent-gridContainer"
+                                                  data-testid="mesh-container-content">
+                                                <div id="comp-kf3dva8m"
+                                                     class="HcOXKn SxM0TO QxJLC3 comp-kf3dva8m wixui-rich-text"
+                                                     data-testid="richTextElement">
+                                                   <p class="font_8 wixui-rich-text__text"
+                                                      style="font-size:26px; line-height:1.2em; text-align:center;"><a
+                                                         href="https://www.brighterminds.org/learning-centers"
+                                                         target="_self" class="wixui-rich-text__text"><span
+                                                               style="color:#00ABA8;"
+                                                               class="wixui-rich-text__text"><span
+                                                                  style="letter-spacing:0.03em;"
+                                                                  class="wixui-rich-text__text"><span
+                                                                     style="font-weight:bold;"
+                                                                     class="wixui-rich-text__text"><span
+                                                                        style="font-family:wfont_16605b_5ef2fce96ea94c36926367f6c8932a76,wf_5ef2fce96ea94c36926367f6c,orig_catamaran_light;"
+                                                                        class="wixui-rich-text__text"><span
+                                                                           style="font-size:26px;"
+                                                                           class="wixui-rich-text__text">Find a Brighter
+                                                                        Minds Center near
+                                                                        you</span></span></span></span></span></a></p>
+                                                </div>
+                                                <div data-mesh-id="comp-kf3dva8r-rotated-wrapper">
+                                                   <div id="comp-kf3dva8r" class="comp-kf3dva8r wixui-vector-image"><a
+                                                         data-testid="linkElement"
+                                                         href="https://www.brighterminds.org/learning-centers"
+                                                         target="_self" class="u9k3ts">
+                                                         <div data-testid="svgRoot-comp-kf3dva8r"
+                                                              class="aizuI7 TcoJIb comp-kf3dva8r">
+                                                            <?xml version="1.0" encoding="UTF-8"?>
+                                                            <svg preserveAspectRatio="none"
+                                                                 data-bbox="23.3 21.5 156.2 156.2"
+                                                                 xmlns="http://www.w3.org/2000/svg" width="200"
+                                                                 height="200" viewBox="23.3 21.5 156.2 156.2"
+                                                                 data-type="shape" role=presentation aria-hidden=true>
+                                                               <g>
+                                                                  <path
+                                                                        d="M135.3 88.3l-33.1-33.1-33.3 33.4 3.9 3.9 26.6-26.7-.5 78 5.5.1.5-78.1 26.5 26.4 3.9-3.9z" />
+                                                                  <path
+                                                                        d="M101.4 177.7c-43.1 0-78.1-35-78.1-78.1s35-78.1 78.1-78.1 78.1 35 78.1 78.1-35 78.1-78.1 78.1zm0-150.7c-40 0-72.6 32.6-72.6 72.6s32.6 72.6 72.6 72.6c40 0 72.6-32.6 72.6-72.6S141.4 27 101.4 27z" />
+                                                               </g>
+                                                            </svg>
+                                                         </div>
+                                                      </a></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div data-mesh-id="ContainerjlhbuinlineContent-wedge-15"></div>
+                                       <div data-mesh-id="ContainerjlhbuinlineContent-wedge-20"></div>
+                                       <div data-mesh-id="ContainerjlhbuinlineContent-wedge-27"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </main>
+               <div id="soapAfterPagesContainer" class="page-without-sosp page-without-sosp">
+                  <div data-mesh-id="soapAfterPagesContainerinlineContent" data-testid="inline-content" class="">
+                     <div data-mesh-id="soapAfterPagesContainerinlineContent-gridContainer"
+                          data-testid="mesh-container-content">
+                        <div id="CONTROLLER_COMP_CUSTOM_ID" style="display:none"></div>
+                     </div>
+                  </div>
+               </div>
+               <footer class="SITE_FOOTER_WRAPPER" tabindex="-1" id="SITE_FOOTER_WRAPPER">
+                  <div id="SITE_FOOTER" class="xU8fqS SITE_FOOTER wixui-footer" tabindex="-1">
+                     <div class="_C0cVf">
+                        <div class="_4XcTfy" data-testid="screenWidthContainerBg"></div>
+                     </div>
+                     <div class="U4Bvut">
+                        <div class="G5K6X8">
+                           <div class="gUbusX" data-testid="screenWidthContainerBgCenter"></div>
+                        </div>
+                        <div class="CJF7A2">
+                           <div data-mesh-id="SITE_FOOTERinlineContent" data-testid="inline-content" class="">
+                              <div data-mesh-id="SITE_FOOTERinlineContent-gridContainer"
+                                   data-testid="mesh-container-content">
+                                 <div id="comp-kezly7h3" class="HcOXKn SxM0TO QxJLC3 comp-kezly7h3 wixui-rich-text"
+                                      data-testid="richTextElement">
+                                    <h6 class="font_6 wixui-rich-text__text" style="font-size:18px;"><span
+                                             style="font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light;"
+                                             class="wixui-rich-text__text"><span style="font-size:18px;"
+                                                class="wixui-rich-text__text"><span style="color:rgb(255, 255, 255);"
+                                                   class="wixui-rich-text__text">Follow
+                                                #BRIGHTERMINDS</span></span></span></h6>
+                                 </div>
+                                 <div id="comp-kezm9j3n" class="comp-kezm9j3n WzbAF8">
+                                    <ul class="mpGTIt" aria-label="Social Bar">
+                                       <li id="dataItem-kezmfgju-comp-kezm9j3n" class="O6KwRn"><a
+                                             data-testid="linkElement"
+                                             href="https://www.youtube.com/user/BrighterMindsConnect" target="_blank"
+                                             class="oRtuWN" aria-label="Brighter Minds YouTube"><wow-image
+                                                        id="img_0_comp-kezm9j3n" class="HlRz5e YaS0jR"
+                                                        data-image-info="{&quot;containerId&quot;:&quot;dataItem-kezmfgju-comp-kezm9j3n&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:200,&quot;height&quot;:200,&quot;uri&quot;:&quot;e9bb463a1bc4434c9d33b81b1fe937f5.png&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                        data-bg-effect-name="" data-has-ssr-src=""
+                                                        style="--wix-img-max-width:max(200px, 100%)"><img
+                                                     alt="Brighter Minds YouTube" /></wow-image></a></li>
+                                       <li id="dataItem-kezmfgjk-comp-kezm9j3n" class="O6KwRn"><a
+                                             data-testid="linkElement" href="https://www.facebook.com/brighterminds16"
+                                             target="_blank" class="oRtuWN"
+                                             aria-label="Brighter Minds Facebook"><wow-image id="img_1_comp-kezm9j3n"
+                                                        class="HlRz5e YaS0jR"
+                                                        data-image-info="{&quot;containerId&quot;:&quot;dataItem-kezmfgjk-comp-kezm9j3n&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:200,&quot;height&quot;:200,&quot;uri&quot;:&quot;e0678ef25486466ba65ef6ad47b559e1.png&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                        data-bg-effect-name="" data-has-ssr-src=""
+                                                        style="--wix-img-max-width:max(200px, 100%)"><img
+                                                     alt="Brighter Minds Facebook" /></wow-image></a></li>
+                                       <li id="dataItem-kezmfgjs-comp-kezm9j3n" class="O6KwRn"><a
+                                             data-testid="linkElement" href="https://www.instagram.com/brighter.minds/"
+                                             target="_blank" class="oRtuWN"
+                                             aria-label="Brighter Minds Instagram"><wow-image id="img_2_comp-kezm9j3n"
+                                                        class="HlRz5e YaS0jR"
+                                                        data-image-info="{&quot;containerId&quot;:&quot;dataItem-kezmfgjs-comp-kezm9j3n&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:200,&quot;height&quot;:200,&quot;uri&quot;:&quot;da7ef6dd1302486c9a67baebe4b364bc.png&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                        data-bg-effect-name="" data-has-ssr-src=""
+                                                        style="--wix-img-max-width:max(200px, 100%)"><img
+                                                     alt="Brighter Minds Instagram" /></wow-image></a></li>
+                                       <li id="dataItem-kezmfgjt1-comp-kezm9j3n" class="O6KwRn"><a
+                                             data-testid="linkElement" href="http://linkedin.com/company/brighter-minds"
+                                             target="_blank" class="oRtuWN"
+                                             aria-label="Brighter Minds LinkedIn"><wow-image id="img_3_comp-kezm9j3n"
+                                                        class="HlRz5e YaS0jR"
+                                                        data-image-info="{&quot;containerId&quot;:&quot;dataItem-kezmfgjt1-comp-kezm9j3n&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:200,&quot;height&quot;:200,&quot;uri&quot;:&quot;f61c7a3b4b4947b28511a25034973383.png&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                        data-bg-effect-name="" data-has-ssr-src=""
+                                                        style="--wix-img-max-width:max(200px, 100%)"><img
+                                                     alt="Brighter Minds LinkedIn" /></wow-image></a></li>
+                                       <li id="dataItem-kezmfgjs2-comp-kezm9j3n" class="O6KwRn"><a
+                                             data-testid="linkElement" href="https://twitter.com/brighterminds16"
+                                             target="_blank" class="oRtuWN"
+                                             aria-label="Brighter Minds Twitter"><wow-image id="img_4_comp-kezm9j3n"
+                                                        class="HlRz5e YaS0jR"
+                                                        data-image-info="{&quot;containerId&quot;:&quot;dataItem-kezmfgjs2-comp-kezm9j3n&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;imageData&quot;:{&quot;width&quot;:200,&quot;height&quot;:200,&quot;uri&quot;:&quot;c4392d634a0148fda8b7b2b0ad98293b.png&quot;,&quot;name&quot;:&quot;&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}"
+                                                        data-bg-effect-name="" data-has-ssr-src=""
+                                                        style="--wix-img-max-width:max(200px, 100%)"><img
+                                                     alt="Brighter Minds Twitter" /></wow-image></a></li>
+                                    </ul>
+                                 </div>
+                                 <div id="comp-kezmgub0" class="HcOXKn c9GqVL QxJLC3 comp-kezmgub0 wixui-rich-text"
+                                      data-testid="richTextElement">
+                                    <h6 class="font_6 wixui-rich-text__text"
+                                        style="font-size:18px; line-height:normal;"><span style="letter-spacing:normal;"
+                                             class="wixui-rich-text__text"><span
+                                                style="font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light;"
+                                                class="wixui-rich-text__text"><span style="font-size:18px;"
+                                                   class="wixui-rich-text__text"><span style="color:rgb(255, 255, 255);"
+                                                      class="wixui-rich-text__text">STAY
+                                                   CONNECTED</span></span></span></span></h6>
+                                 </div>
+                                 <div id="comp-kzjgd91b" class="bkIuWA comp-kzjgd91b">
+                                    <div data-mesh-id="comp-kzjgd91binlineContent" data-testid="inline-content"
+                                         class="">
+                                       <div data-mesh-id="comp-kzjgd91binlineContent-gridContainer"
+                                            data-testid="mesh-container-content">
+                                          <form id="comp-kzjgd951" class="JVi7i2 comp-kzjgd951 wixui-form">
+                                             <div data-mesh-id="comp-kzjgd951inlineContent" data-testid="inline-content"
+                                                  class="">
+                                                <div data-mesh-id="comp-kzjgd951inlineContent-gridContainer"
+                                                     data-testid="mesh-container-content">
+                                                   <div id="comp-kzjgd95u"
+                                                        class="MpKiNN comp-kzjgd95u wixui-text-input lPl_oN">
+                                                      <div class="pUnTVX"><input name="email" id="input_comp-kzjgd95u"
+                                                                class="KvoMHf has-custom-focus wixui-text-input__input"
+                                                                type="email" placeholder="Email" required=""
+                                                                aria-required="true" pattern="^.+@.+\.[a-zA-Z]{2,63}$"
+                                                                maxLength="250" autoComplete="off" aria-label="Email"
+                                                                value="" /></div>
+                                                   </div>
+                                                   <div class="comp-kzjgd96n FubTgk" id="comp-kzjgd96n"
+                                                        aria-disabled="false"><button aria-disabled="false"
+                                                              data-testid="buttonElement"
+                                                              class="uDW_Qe wixui-button PlZyDq"><span
+                                                               class="l7_2fn wixui-button__label">Submit</span></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </form>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="comp-kezlzvl5" class="HcOXKn c9GqVL QxJLC3 comp-kezlzvl5 wixui-rich-text"
+                                      data-testid="richTextElement">
+                                    <h6 class="font_6 wixui-rich-text__text"
+                                        style="font-size:18px; line-height:normal; text-align:center;"><span
+                                             style="letter-spacing:normal;" class="wixui-rich-text__text"><a
+                                             href="https://www.brighterminds.org" target="_self"
+                                             class="wixui-rich-text__text"><span
+                                                   style="font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light;"
+                                                   class="wixui-rich-text__text"><span style="font-size:18px;"
+                                                      class="wixui-rich-text__text"><span
+                                                         style="color:rgb(255, 255, 255);"
+                                                         class="wixui-rich-text__text">HOME</span></span></span></a></span>
+                                    </h6>
+                                 </div>
+                                 <div id="comp-kezm2e4e" class="HcOXKn SxM0TO QxJLC3 comp-kezm2e4e wixui-rich-text"
+                                      data-testid="richTextElement">
+                                    <h6 class="font_6 wixui-rich-text__text" style="font-size:18px; text-align:center;">
+                                       <span style="font-size:18px;" class="wixui-rich-text__text"><span
+                                                style="color:rgb(255, 255, 255); font-family:open sans,sans-serif;"
+                                                class="wixui-rich-text__text">|</span></span>
+                                    </h6>
+                                 </div>
+                                 <div id="comp-kx5kmw6e" class="HcOXKn SxM0TO QxJLC3 comp-kx5kmw6e wixui-rich-text"
+                                      data-testid="richTextElement">
+                                    <h5 class="font_5 wixui-rich-text__text" style="font-size:20px;"><span
+                                             style="color:#FFFFFF;" class="wixui-rich-text__text"><span
+                                                style="font-size:20px;" class="wixui-rich-text__text"><a
+                                                data-auto-recognition="true" href="mailto:contact@brighterminds.org"
+                                                class="wixui-rich-text__text">contact@brighterminds.org</a></span></span>
+                                    </h5>
+                                 </div>
+                                 <div id="comp-kezm34pi" class="HcOXKn SxM0TO QxJLC3 comp-kezm34pi wixui-rich-text"
+                                      data-testid="richTextElement">
+                                    <h6 class="font_6 wixui-rich-text__text" style="font-size:14px; text-align:center;">
+                                       <span style="font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light;"
+                                             class="wixui-rich-text__text"><span style="font-size:14px;"
+                                                class="wixui-rich-text__text"><span style="color:rgb(255, 255, 255);"
+                                                   class="wixui-rich-text__text">&copy; COGNITIVE SKILLS&nbsp;PVT LTD.
+                                                ALL RIGHTS RESERVED</span></span></span>
+                                    </h6>
+                                 </div>
+                                 <div id="comp-kezm5j0b" class="HcOXKn c9GqVL QxJLC3 comp-kezm5j0b wixui-rich-text"
+                                      data-testid="richTextElement">
+                                    <h6 class="font_6 wixui-rich-text__text"
+                                        style="font-size:14px; line-height:normal; text-align:center;"><span
+                                             style="letter-spacing:normal;" class="wixui-rich-text__text"><a
+                                             href="https://www.brighterminds.org/learning-centers" target="_self"
+                                             class="wixui-rich-text__text"><span
+                                                   style="font-family:wfont_16605b_d08766f1a8d4459ca6554db44e9761bd,wf_d08766f1a8d4459ca6554db44,orig_open_sans_light;"
+                                                   class="wixui-rich-text__text"><span style="font-size:14px;"
+                                                      class="wixui-rich-text__text"><span
+                                                         style="color:rgb(255, 255, 255);"
+                                                         class="wixui-rich-text__text">LEARNING CENTER
+                                                      INDICATOR</span></span></span></a></span></h6>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </footer>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- <script src="../scripts/nav.js"></script> -->
+</body>
+</html>

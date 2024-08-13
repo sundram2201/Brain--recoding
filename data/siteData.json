@@ -1,0 +1,23 @@
+{
+  "data": {
+    "site": {
+      "metaSiteId": "74297962-4c0e-4aa5-8f8e-78c6e59ad63d",
+      "userId": "16605be3-cee8-486e-91fb-4658a1172600",
+      "siteId": "35e68e6e-368b-413e-8310-07e1cf0a3488",
+      "externalBaseUrl": "https://www.brighterminds.org",
+      "siteRevision": 807,
+      "siteType": "UGC",
+      "dc": "84",
+      "isResponsive": false,
+      "editorName": "Unknown",
+      "sessionId": "1cb9eae9-46e8-4fcd-9ebb-6d7757e3c27b",
+      "isSEO": false,
+      "appNameForBiEvents": "thunderbolt"
+    },
+    "rollout": { "siteAssetsVersionsRollout": false, "isDACRollout": 0, "isTBRollout": false },
+    "fleetConfig": { "fleetName": "thunderbolt-renderer-user-code", "type": "GA", "code": 0 },
+    "requestUrl": "https://www.brighterminds.org/",
+    "isInSEO": false,
+    "platformOnSite": true
+  }
+}
